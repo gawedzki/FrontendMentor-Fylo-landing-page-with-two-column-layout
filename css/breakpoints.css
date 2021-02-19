@@ -1,0 +1,263 @@
+@media only screen and (max-width: 739px) {
+  .intro {
+    text-align: center;
+  }
+
+  .cntnt__sctn > h2 {
+    text-align: center;
+  }
+  .cntnt__sctn > p + p {
+    margin-top: 15px;
+  }
+  .access__form p + input {
+    margin-top: 10px;
+  }
+  .contact + .links {
+    margin-top: 60px;
+  }
+  .links > div + div {
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 740px) {
+  html {
+    background-image: linear-gradient(
+      hsl(0, 0%, 100%) 899px,
+      hsl(230, 60%, 98%) 899px
+    );
+  }
+  body {
+    width: 100%;
+    max-width: 1440px;
+    background-image: url(../images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 114px;
+    background-position-y: 825px;
+  }
+
+  header {
+    height: 179px;
+    padding: 65px 80px;
+  }
+  header img {
+    width: 166px;
+  }
+  .hdrLinks {
+    font-size: 16px;
+  }
+  .hdrLinks a + a {
+    margin-left: 58px;
+  }
+
+  main {
+    margin-top: 21px;
+  }
+
+  .intro {
+    padding: 0 80px;
+    margin-bottom: 320px;
+  }
+  .intro__img {
+    width: 640px;
+  }
+  .intro__sctn {
+    width: 570px;
+  }
+  .intro__sctn > h1 {
+    font-size: 38px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+  .intro__sctn > p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+  }
+  .intro__form input[type="email"] {
+    width: 320px;
+    height: 45px;
+  }
+  .intro__form p {
+    top: 48px;
+  }
+  .intro__form input[type="submit"] {
+    width: 200px;
+    height: 45px;
+  }
+  .intro__form p + input {
+    margin-left: 12px;
+  }
+
+  .cntnt {
+    padding: 0 80px;
+  }
+  .cntnt > img {
+    width: 620px;
+  }
+  .cntnt__sctn {
+    width: 660px;
+  }
+  .cntnt__sctn > h2 {
+    font-size: 40px;
+  }
+  .cntnt__sctn > p {
+    font-size: 16px;
+    width: 520px;
+  }
+  .cntnt__cmnt {
+    width: 356px;
+    padding: 26px 32px;
+  }
+  .cntnt__cmnt > p {
+    font-size: 15px;
+  }
+  .cntnt__user > img {
+    width: 32px;
+    height: 32px;
+  }
+  .cntnt__user > h4 {
+    font-size: 12px;
+  }
+  .cntnt__user > p {
+    font-size: 9px;
+  }
+
+  .access {
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+  }
+  .access__sctn {
+    width: 670px;
+    padding: 0 80px;
+  }
+  .access__sctn > h3 {
+    font-size: 32px;
+    margin-bottom: 18px;
+  }
+  .access__sctn > p {
+    font-size: 17px;
+  }
+  .access__form {
+    width: 740px;
+    padding: 0 120px;
+    margin: 0 auto 0px;
+  }
+  .access__form > input[type="email"] {
+    width: 480px;
+    height: 48px;
+  }
+  .access__form > input::placeholder {
+    padding-left: 25px;
+    font-size: 12px;
+  }
+  .access__form > p {
+    font-size: 12px;
+    top: 49px;
+    left: 145px;
+  }
+  .access__form > input[type="submit"] {
+    width: 200px;
+    height: 48px;
+    font-size: 14px;
+  }
+  .access__form > p + input {
+    margin-top: 15px;
+  }
+
+  footer {
+    padding: 108px 80px 50px;
+  }
+  footer > img {
+    width: 176px;
+  }
+  .contact,
+  .links,
+  .links > div {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .contact {
+    width: 230px;
+    margin: 0 auto;
+  }
+  .links {
+    width: 55%;
+    margin: 0 auto;
+  }
+  .links > div {
+    width: 49%;
+    max-width: 285px;
+  }
+  .links a {
+    width: 80px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1439px) {
+  .intro__sctn {
+    margin: 0 auto;
+  }
+  .intro__form > input:first-child {
+    margin-bottom: 16px;
+  }
+  .cntnt__sctn > a {
+    display: block;
+    margin: 25px auto 0;
+  }
+  .access {
+    text-align: center;
+  }
+  .socials {
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .intro {
+    height: 475px;
+  }
+  .intro__img {
+    float: right;
+  }
+  .intro__sctn {
+    position: relative;
+    top: 47%;
+    transform: translateY(-50%);
+  }
+
+  .cntnt > img {
+    float: right;
+  }
+  .cntnt__sctn {
+    display: inline-block;
+  }
+  .cntnt__sctn > p {
+    margin-bottom: 15px;
+  }
+  .cntnt__cmnt {
+    display: inline-block;
+  }
+
+  .access {
+    padding: 110px 0 60px;
+    overflow: hidden;
+  }
+  .access__sctn {
+    float: left;
+  }
+  .access__form {
+    float: right;
+  }
+
+  .links {
+    width: auto;
+  }
+  .links a {
+    margin-left: 205px;
+  }
+  .socials {
+    display: inline-block;
+    margin: 0 180px;
+    vertical-align: top;
+  }
+}
